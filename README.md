@@ -36,7 +36,8 @@ reporting jurisdiction: Arkansas county_names: Jefferson
 reporting jurisdiction: Michigan county_names: Genesee
 == key_plot_ids = NWSS_oh_395_Treatment plant_raw wastewater
 reporting jurisdiction: Ohio county_names: Hamilton
-[....]```
+[....]
+```
 
 In this example, NWSS_reporter consumed NWSS_Public_SARS-CoV-2_Wastewater_Metric_Data_20231022.csv and looked at all the rows for the 15-day sample intervals that (a) ended on October 1, 2023 or later and (b) before October 2, 2023 and calculated how many sites had at least some valid sample data and how many did not have valid sample data in this data file.
 
