@@ -48,7 +48,7 @@ def get_row_key(r):
     return r['reporting_jurisdiction'] + ":" + r['county_names'] + ":" + r['population_served']
 
 def get_ids( rowlist ):
-    '''from a list of rows, compile a list of all the unique key_plot_ids in those rows and return as a single string.'''
+    '''from a list of rows, compile a list of all the unique key_plot_ids in those rows.'''
     ids = [r['key_plot_id'] for r in rowlist ]
     return set(ids)
 
